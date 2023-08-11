@@ -17,12 +17,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
-	char* arr;
-	sprintf(arr, "%d", n);
-	
-	if (arr[-1] > 5)
+	int last = n%10
+	if (last > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5", n, arr[-1]);
+		printf("Last digit of %d is %d and is greater than 5", n, last);
 	}
 	
 	return (0);
