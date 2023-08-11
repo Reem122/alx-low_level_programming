@@ -11,7 +11,6 @@
 int main(void)
 {
 	char c;
-	sprintf(arr, "%d", n);
 	
 	for (c='a'; c='z'; c++)
 	{
