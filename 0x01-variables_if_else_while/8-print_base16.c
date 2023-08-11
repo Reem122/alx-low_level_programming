@@ -3,7 +3,7 @@
 /**
  * main -Entry point
  *
- * Description: task 2 - Variables, if, else, while - alx
+ * Description: task 8 - Variables, if, else, while - alx
  *
  * Return: Always 0 (success)
  */
@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(c);
 	}
-	for (c = 65; c <= 70; c++)
+	for (c = 97; c <= 102; c++)
 	{
 		putchar(c);
 	}
