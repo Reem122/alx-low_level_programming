@@ -5,7 +5,7 @@
 /**
  * main -Entry point
  *
- * Description: task 1 - Variables, if, else, while - alx
+ * Description: task 0 - Variables, if, else, while - alx
  *
  * Return: Always 0 (success)
  */
